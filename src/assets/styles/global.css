@@ -1,0 +1,49 @@
+/*este arquivo css serve para definir todas a estilização padrão do projeto */
+:root {
+font-size: 60%;
+
+    --color-background: #f0f0f7;
+    --color-cinza-facil: #DCDCDC;
+    --color-cinza-medio: #A9A9A9;
+    --color-cinza-escuro:#696969;
+    --color-vermelho: #fd1919;
+    --color-verde: #32CD32;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh; /*Para que a aplicação ocupe toda a altura da tela*/
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  /*1.6rem: aumentando em 60% do tamanho do font-size padrão*/
+  /*font: 500 1.6rem Poppins;*/
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-text-base);
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
