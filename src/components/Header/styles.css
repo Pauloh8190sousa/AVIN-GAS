@@ -1,0 +1,45 @@
+
+#Toolbar{
+    background: var(--color-cinza-medio);
+    margin-bottom: 20px;
+}
+#separador{
+    padding-right: 0px;
+    padding-left: 0px;
+    background: var(--color-cinza-medio);
+    color: black;
+    border-color: var(--color-cinza-medio);
+}
+#sign-out{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background: var(--color-cinza-medio);
+    color: black;
+    border-color: var(--color-cinza-medio);
+}
+#ajuda{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background: var(--color-cinza-medio);
+    color: black;
+    border-color: var(--color-cinza-medio);
+}
+#logo{
+    margin-right: 10px;
+}
+#avin{
+    margin-right: 10px;
+}
+#usuario{
+    font-size: 20px;
+    color: green;
+    margin-right: 20px;
+}
+#root{
+    display: initial;
+    align-items: stretch;
+}
