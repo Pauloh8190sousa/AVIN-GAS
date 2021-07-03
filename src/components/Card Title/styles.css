@@ -1,16 +1,47 @@
-#Painel{
-    font-size: 15px;
+
+.courses-container {
     
 }
 
-#ano{
-    font-size: 20px;
-    color: black;
+.course {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: var(--color-text-base) solid 7px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    width: 700px;
+    height: 125px;
+    position: relative;
 }
 
+.course h3.info {
+    font-weight: bold;
+    font-size: 11pt;
+    color: green;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
-#CardTitle{
-    
-    font-size: 20px;
-    color:green;
+.course h2 {
+    font-size: 15pt;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.btn {
+    background-color:var(--color-text-base);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 17px;
+    right: 30px;
+    bottom: 17px;
+    letter-spacing: 1px;
+    position: absolute;
 }
