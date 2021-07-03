@@ -1,7 +1,7 @@
 import React from "react";
 
-import Logo from "../imgs/ifpb.png";
-import Avin from "../imgs/avin.png";
+import Logo from "../../assets/styles/imgs/ifpb.png";
+import Avin from "../../assets/styles/imgs/avin.png";
 import StylesHeader from "../Header/styles.css";
 import {PrimeReactCSS} from "primereact/resources/themes/fluent-light/theme.css";
 import {PrimeReactMinCsss} from "primereact/resources/primereact.min.css";
