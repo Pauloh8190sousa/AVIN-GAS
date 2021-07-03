@@ -1,13 +1,16 @@
 import React from "react";
+
 import Header from "../../components/Header";
-import CardTitle from "../../components/Card Title";
+
+import CardApresentation from "../../components/Card Apresentation";
+
 function TelePrincipal() {
     return ( 
         <div>
-            <Header/>
-            <CardTitle/>
+            <Header />
+            <CardApresentation title="Questionarios Disponiveis"/>
         </div>
-        
+
     );
 }
 
