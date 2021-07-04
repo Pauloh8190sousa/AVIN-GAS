@@ -1,11 +1,14 @@
 import React from "react";
 
+import Header from "../../components/Header";
+
+import CardApresentation from "../../components/Card Apresentation";
+
 function QuestionarioBoasVindas() {
     return (
         <div>
-            <h1>
-                Questionario Boas Vindas
-            </h1>
+            <Header />
+            <CardApresentation title="Questionarios Disponiveis" type="mensagem" />
         </div>
     );
 }

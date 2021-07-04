@@ -1,17 +1,16 @@
 div {
-    border: #A9A9A9 solid 1.5px;
     border-radius: 4px;
 }
 
 div.card {
     max-width: 100%;
+    border: #A9A9A9 solid 1.5px;
 }
 
 div.card-item {
     border-style: none;
     padding: 15px;
 }
-
 div#card-item-title {
     background-color: var(--color-cinza-claro);
 }
@@ -19,7 +18,7 @@ div#card-item-title {
 div#card-item-title h1.title {
     color: var(--color-text-base);
     font-kerning: normal;
-    font-size: 10pt;
+    font-size: 13pt;
 }
 
 div.card-item ul.lista-questionarios {

@@ -1,9 +1,10 @@
 
 .courses-container {
-    
+    border-style: none;
 }
 
 .course {
+    border-style: none;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     border-left: var(--color-text-base) solid 7px;
@@ -16,6 +17,10 @@
     width: 700px;
     height: 125px;
     position: relative;
+}
+
+div.course-info{
+    border-style: none;
 }
 
 .course h3.info {
