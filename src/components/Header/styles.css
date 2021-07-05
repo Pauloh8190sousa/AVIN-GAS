@@ -1,32 +1,39 @@
 
 #Toolbar{
-    background: var(--color-cinza-medio);
+    background: var(--color-cinza-claro);
     margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+
 }
 #separador{
     padding-right: 0px;
     padding-left: 0px;
-    background: var(--color-cinza-medio);
+    font-size: 15px;
+    background: none;
     color: black;
-    border-color: var(--color-cinza-medio);
+    border-style: none;
 }
 #sign-out{
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 6px;
     margin-right: 6px;
-    background: var(--color-cinza-medio);
+    font-size: 15px;
+    background: none;
     color: black;
-    border-color: var(--color-cinza-medio);
+    border-style: none;
 }
 #ajuda{
     padding-right: 0px;
     padding-left: 0px;
+    font-size: 10px;
     margin-left: 6px;
+    font-size: 15px;
     margin-right: 6px;
-    background: var(--color-cinza-medio);
+    background: none;
     color: black;
-    border-color: var(--color-cinza-medio);
+    border-style: none;
 }
 #logo{
     margin-right: 10px;
@@ -35,12 +42,8 @@
     margin-right: 10px;
 }
 #usuario{
-    font-size: 20px;
+    font-size: 17px;
     color: green;
     font-weight: bold;
-    margin-right: 20px;
-}
-#root{
-    display: initial;
-    align-items: stretch;
+    margin-right: 15px;
 }
