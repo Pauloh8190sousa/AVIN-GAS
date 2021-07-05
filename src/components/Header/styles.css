@@ -2,10 +2,10 @@
 #Toolbar{
     background: var(--color-cinza-claro);
     margin-bottom: 20px;
-    margin-top: 20px;
     border-radius: 5px;
-
+    
 }
+
 #separador{
     padding-right: 0px;
     padding-left: 0px;

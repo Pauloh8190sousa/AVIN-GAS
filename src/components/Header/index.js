@@ -48,7 +48,7 @@ function Header() {
 
     return (
         <div>
-            <Toolbar id = "Toolbar" left={leftContents} right={rightContents}></Toolbar>
+            <Toolbar id = "Toolbar" left={leftContents} right={rightContents} style={StylesHeader}></Toolbar>
         </div>
         );
 }
