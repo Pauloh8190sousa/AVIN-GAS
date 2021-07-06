@@ -6,7 +6,9 @@ div.principal{
     display: flex;
     justify-content: center;
 }
-
+div.content{
+    padding: 10px;   
+}
 div.card {
     max-width: 100%;
     border: #A9A9A9 solid 1.5px;
@@ -33,4 +35,7 @@ div.card-item ul.lista-questionarios {
 
 div.card-item ul.lista-questionarios li.item-questionario {
     padding: 5px;
+}
+ul{
+    list-style: none;
 }
