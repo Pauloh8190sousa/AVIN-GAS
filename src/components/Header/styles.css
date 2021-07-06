@@ -1,9 +1,11 @@
-
 #Toolbar{
     background: var(--color-cinza-claro);
     margin-bottom: 20px;
     border-radius: 5px;
     
+}
+div#header{
+    width: 100vw;
 }
 
 #separador{
@@ -46,4 +48,9 @@
     color: green;
     font-weight: bold;
     margin-right: 15px;
+}
+
+#icone_email{
+    display:flex;
+    align-items: center;
 }

@@ -1,14 +1,13 @@
 /*este arquivo css serve para definir todas a estilização padrão do projeto */
 :root {
-font-size: 60%;
-
-    --color-background: #f0f0f7;
-    --color-cinza-claro: #DCDCDC;
-    --color-cinza-medio: #A9A9A9;
-    --color-cinza-escuro:#696969;
-    --color-text-base: #202020;
-    --color-vermelho: #fd1919;
-    --color-verde: #32CD32;
+  font-size: 60%;
+  --color-background: #f0f0f7;
+  --color-cinza-claro: #DCDCDC;
+  --color-cinza-medio: #A9A9A9;
+  --color-cinza-escuro:#696969;
+  --color-text-base: #202020;
+  --color-vermelho: #fd1919;
+  --color-verde: #32CD32;
 }
 
 * {

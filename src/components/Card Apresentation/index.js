@@ -10,16 +10,16 @@ function renderQuestionarios() {
     return (
         <ul className="lista-questionarios">
             <li className="item-questionario">
-                <CardTitle />
+                <CardTitle temBotao={true} />
             </li>
             <li className="item-questionario">
-                <CardTitle />
+                <CardTitle temBotao={true}/>
             </li>
             <li className="item-questionario">
-                <CardTitle />
+                <CardTitle temBotao={true}/>
             </li>
             <li className="item-questionario">
-                <CardTitle />
+                <CardTitle temBotao={true}/>
             </li>
         </ul>
     );
@@ -52,14 +52,16 @@ function handleContent(type) {
 
 function ApresentationCard(props) {
     return (
-        <div className="card">
+        <div className="principal">
+            <div className="card">
 
-            <div className="card-item" id="card-item-title">
-                <h1 className="title"> &gt; {props.title} </h1>
-            </div>
+                <div className="card-item" id="card-item-title">
+                    <h1 className="title"> &gt; {props.title} </h1>
+                </div>
 
-            <div className="card-item">
-                {handleContent(props.type)}
+                <div className="card-item">
+                    {handleContent(props.type)}
+                </div>
             </div>
         </div>
     );

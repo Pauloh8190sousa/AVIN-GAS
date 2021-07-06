@@ -37,7 +37,7 @@ function Header() {
     );
     
     const rightContents = (
-        <div>
+        <div id = "icone_email">
             <span id="usuario">
              giuseppe@academico.ifpb.edu.br
             </span>
@@ -47,7 +47,7 @@ function Header() {
     );
 
     return (
-        <div>
+        <div id = "header">
             <Toolbar id = "Toolbar" left={leftContents} right={rightContents} style={StylesHeader}></Toolbar>
         </div>
         );

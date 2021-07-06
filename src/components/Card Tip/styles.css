@@ -1,0 +1,22 @@
+div#principal_dica{
+    background-color: var(--color-cinza-claro);
+    border: black solid 1px;
+    padding: 10px;
+    margin: 10px;
+    max-width: fit-content;
+}
+p#texto_dica{
+    font-size: 12pt;
+}
+h1#h1_dica{
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+span#verde{
+    color: green;
+}
+span#vermelho{
+    color: red;
+}

@@ -37,16 +37,16 @@ div.course-info{
     letter-spacing: 1px;
     margin: 10px 0;
 }
-.btn {
-    background-color:var(--color-text-base);
+.btn{
     border: 0;
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     color: #fff;
     font-size: 16px;
     padding: 12px 17px;
+    letter-spacing: 1px;
+    background-color: var(--color-text-base);
     right: 30px;
     bottom: 17px;
-    letter-spacing: 1px;
     position: absolute;
 }
