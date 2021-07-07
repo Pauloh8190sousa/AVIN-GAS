@@ -1,0 +1,41 @@
+
+.question-container {
+    border-style: none;
+    max-width: 125%;
+}
+
+.course-question {
+    border-style: none;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: var(--color-text-base) solid 7px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 95%;
+    margin: 20px;
+    overflow: hidden;
+    width: 685px;
+    height: 100%;
+    position: relative;
+}
+
+div.course-info-question{
+    border-style: none;
+    margin-left: 20px;
+}
+
+.course-question h3.info-question {
+    font-weight: bold;
+    font-size: 11pt;
+    color: green;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.course-question p {
+    font-size: 12pt;
+    margin: 10px 0;
+    margin-bottom: 30px;
+}

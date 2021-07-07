@@ -21,8 +21,8 @@ function QuestionarioFinalizado() {
             </div>
             <div className="div_principal_questionarioboas_vindas">
                 <CardTip />
-            </div>
-            <CardApresentation id="Ap" title="Confirmar envio do questionario">
+            </div >
+            <CardApresentation title="Confirmar envio do questionario">
                 <CardMensagem text={
                     <div>
                         <p>Caro Estudante, </p>
