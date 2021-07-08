@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Etapas
+## Etapas
 - [x] Criação de interface
 - [ ] Navegação de Páginas
 - [ ] Integração com o Back-End
