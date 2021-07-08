@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ##Etapas
--[x] Criação de interface
--[ ] Navegação de Páginas
--[ ] Integração com o Back-End
+- [x] Criação de interface
+- [ ] Navegação de Páginas
+- [ ] Integração com o Back-End
 
 |Criação de Interface|Navegação de Páginas|Integração com o Back-End|
 |--------------------|--------------------|-------------------------|
